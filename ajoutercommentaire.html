@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ajouternews</title>
+</head>
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>cours session</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet"> 
+<style>
+    body{
+    background-color: #e4eadd;
+    text-align: center;
+    font-family:'Source Code Pro','Century Gothic', 'ariane';
+    font-size: 16px;
+    border-radius: 15px;
+    width: 30%;
+    border: 2px solid rgb(93, 87, 87);
+    margin: 0 auto;
+    padding:5px;
+    line-height: 25px;
+    margin-top: 10px;
+    }
+    table{
+        margin: 0 auto;
+        width:50%;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    .table1{
+        background-color: bisque;
+    }
+   
+    
+</style>
+</head>
+<body>
+
+	<body>
+		<div id ="table">
+		<form action="ajout_com.php" method="POST">
+		   <fieldset>
+			<legend> Ajouter un commentaire </legend>
+				<table class='table1'>
+				<tr><td><label> titre : </label></td><td><input type="text" name="titre"/></td></tr>
+                <tr><td><label>Auteur :</label></td><td><input type="text" name="auteur"/></td></tr>
+                <tr><td><label>Inserez votre commentaire</label><textarea name="contenu" id="" cols="40" rows="10"></textarea></td></tr>
+               
+                <!--<tr><td><label>Article :</label></td><td><input type="text" name="articles"/></td></tr>
+                -->
+				<tr><td><input type="submit" name="envoyer" value="envoyer"/></td></tr>
+			</table>
+			</fieldset>
+			
+		</form>
+		</div>
+		<br/>
